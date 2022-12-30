@@ -1,0 +1,266 @@
+.App {
+  height: 7in;
+  width: 4in;
+  background-color: rgb(78, 82, 83);
+  border-style: groove;
+  border-radius: 20px;
+}
+
+
+.App-child {
+  height: 97.5%;
+  width: 95%;
+  background-color: black;
+  border-style: groove;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 7px;
+
+}
+
+/* Tooltip container */
+.App-child {
+  position: relative;
+  /* display: inline-block; */
+  border-bottom: 1px dotted black;
+  /* If you want dots under the hoverable text */
+}
+
+.App-tooltiptext {
+  visibility: hidden;
+  width: 100%;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 20px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.App-child:hover .App-tooltiptext {
+  visibility: visible;
+  cursor: pointer;
+}
+
+
+.App-body {
+  height: 93%;
+  width: 62%;
+  background-color: black;
+  border-style: solid;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 32px;
+}
+
+.App-info {
+  height: 51%;
+  color: white;
+}
+
+.App-info-img {
+  height: 70%;
+  width: 100%;
+  margin: 0px;
+  border-radius: 20px;
+
+}
+
+.App-info-h2,
+.App-info-h3,
+.App-info-h4 {
+  line-height: 15px;
+  margin: 0px;
+  text-align: center;
+}
+
+.App-info-h2 {
+  font-size: 15px;
+}
+
+.App-info-h3 {
+  font-size: 10px;
+}
+
+.App-info-h4 {
+  font-size: 10px;
+}
+
+.App-info-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.App-info-button {
+  padding: 10px 5px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  width: 100px;
+  border-style: groove;
+  background-blend-mode: screen;
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+}
+
+.App-info-button:hover {
+  background-color: rgb(124, 126, 126);
+  color: white;
+  cursor: pointer;
+}
+
+.App-info-button>img {
+  width: 20%;
+  border-radius: 3px;
+}
+
+.App-info-button:hover>img {
+  filter: invert(100%);
+}
+
+.App-details {
+  height: 17%;
+  margin-top: 5px;
+  color: white;
+}
+
+.h1 {
+  font-size: 7px;
+  margin: 0px;
+}
+
+.paragraph {
+
+  margin-top: -20px;
+  font-size: 12px;
+  background-color: rgb(2, 2, 2);
+  height: 90%;
+  width: 35ch;
+  word-wrap: break-word;
+  overflow: hidden;
+  line-height: 1.2rem;
+}
+
+.App-footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  height: 6%;
+
+}
+
+.App-footer-button {
+  width: 15%;
+  background-color: black;
+  margin: 0px;
+}
+
+.App-footer-button>img {
+
+  border-radius: 5px;
+  width: 150%;
+
+}
+
+
+.App-footer-button:hover>img {
+  filter: invert(100%);
+  cursor: pointer;
+}
+
+.Change-details {
+  height: 620px;
+  width: 400px;
+  top: 50px;
+  left: 80px;
+  position: fixed;
+  border-radius: 5px;
+  background-color: black;
+  border-color: rgba(248, 242, 242, 0.502);
+  border-style: outset;
+  border-width: 5px 5px;
+  z-index: 2;
+  display: flexbox;
+}
+
+.Change-navbar {
+  /* background-color: rgb(124, 126, 126); */
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  box-shadow: 3px 3px 3px rgba(248, 242, 242, 0.502);
+
+}
+
+.Change-label {
+  font-size: 17px;
+  margin: 10px 5px 10px 5px;
+  padding: 5px;
+  color: white;
+  display: block;
+  position: relative;
+}
+
+.Change-input {
+  font-size: 15px;
+  margin: 10px 5px;
+  padding: 5px;
+  width: 33ch;
+  position: absolute;
+  top: 0px;
+  left: 95px;
+}
+
+.Change-textarea {
+  height: 60px;
+  text-align: start;
+  font-size: 15px;
+  margin: 10px 5px;
+  padding: 5px;
+  width: 33ch;
+  position: absolute;
+  top: 0px;
+  left: 95px;
+  background-color: white;
+}
+
+.Change-img {
+  font-size: 20px;
+  margin: 10px 5px;
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0px;
+  left: 95px;
+  border-radius: 15px;
+}
+
+.Change-label>button {
+  font-size: 20px;
+  margin: 10px 5px;
+  padding: 5px;
+  width: 130px;
+  border-radius: 10px;
+  border-style: none;
+  position: absolute;
+  top: 30px;
+  left: 55%;
+
+}
+
+.Change-button {
+  font-size: 20px;
+  margin: 90px 25px;
+  padding: 5px;
+  width: 150px;
+  border-radius: 10px;
+  border-style: none;
+}
