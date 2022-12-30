@@ -17,6 +17,4 @@ The screenshots of the features of App is attached:
 
 ![AppEdit](https://user-images.githubusercontent.com/99355229/210081532-333021d9-e57e-4e8a-9a6b-969fe6f6564b.jpg)
 
-![AppEdited](https://user-images.githubusercontent.com/99355229/210081548-eefef9be-58ad-4d30-8ada-724b4d6d74af.jpg
-
-![AppHover](https://user-images.githubusercontent.com/99355229/210081587-ad3e72fa-19ab-4108-8db4-2e819f1cb747.jpg)
+![AppEdited](https://user-images.githubusercontent.com/99355229/210081844-e35d7f07-91bf-457d-a9e9-5633981086d6.jpg)
