@@ -1,4 +1,4 @@
-# react-businesscard
+#  CareerSketch
 The App is developed in react using the react hooks,reusing react components,forms...
 
 The App is for creating digital business card which displays: Photo ,Name ,Occupation ,Company ,a link to email ,a link to LinkedIn ,a small description about you and your interests.
